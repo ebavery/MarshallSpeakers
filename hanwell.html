@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Marshall Hanwell Speakers</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/agency.min.css" rel="stylesheet">
+    <link href="mycss.css" rel="stylesheet" type="text/css"/>
+    <!-- Bootstrap core CSS -->
+    <!--link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" -->
+
+    <!-- Custom styles for this template -->
+    <link href="css/portfolio-item.css" rel="stylesheet">
+
+    <!-- Temporary navbar container fix -->
+    <style>
+    .navbar-toggler {
+        z-index: 1;
+    }
+	body{
+	margin-top: 85px;
+	}
+    
+    @media (max-width: 576px) {
+        nav > .container {
+            width: 100%;
+        }
+    }
+    body{
+        margin-top: 20px;
+    }
+    </style>
+
+    <script type="text/javascript">
+        function scrollDown(){
+            setTimeout(function(){
+                window.scrollBy(0,-80);
+            }, 1100);
+        }
+    </script>
+
+    <script type="text/javascript">
+        function showMore(){
+            var setting = document.getElementById("btnMore").innerHTML;
+            if (setting == "MORE"){
+                document.getElementById("extra").style.display = 'block';
+                document.getElementById("btnMore").innerHTML = "LESS";
+            }
+            else if (setting == "LESS"){
+                document.getElementById("extra").style.display = 'none';
+                document.getElementById("btnMore").innerHTML = "MORE";
+            }
+        }
+        function change(color){
+            switch(color){
+                case 'green': document.getElementById("main").src = 'img/hanwell_green.jpg'; break;
+                case 'cream': document.getElementById("main").src = 'img/hanwell_cream.jpg'; break;
+                case 'purple': document.getElementById("main").src = 'img/hanwell_purple.jpg'; break;
+                case 'black': document.getElementById("main").src = 'img/hanwell_black.jpg'; break;    
+                    
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar fixed-top navbar-toggleable-md navbar-inverse bg-inverse" id="mainNav">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbarLogo" href="index.html"><img src='img/Marshall_Logo_sm.png'></a>
+            
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#sound">Sound</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#portfolio">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#team">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Page Content -->
+    <div class="container" style='margin-top: 100px'>
+
+        <!-- Portfolio Item Heading -->
+        <h1 class="service-heading">THE HANWELL <small> USD 600</small></h1>
+
+        <!-- Portfolio Item Row -->
+        <div class="row">
+
+            <div class="col-md-8">
+                <img id="main" class="img-fluid" src="img/hanwell_black.jpg" alt="Hanwell speaker">                
+                <button class="btn-custom" onClick="change('black')"><img src="img/hanwell_black_btn.jpg" alt="Hanwell speaker in black"></button>
+                <button class="btn-custom" onClick="change('green')"><img src="img/hanwell_green_btn.jpg" alt="Hanwell speaker in green"></button>
+                <button class="btn-custom" onClick="change('cream')"><img src="img/hanwell_crm_btn.jpg" alt="Hanwell speaker in cream"></button>
+                <button class="btn-custom" onClick="change('purple')"><img src="img/hanwell_purple_btn.jpg" alt="Hanwell speaker in purple"></button>
+                
+            </div>
+
+            <div class="col-md-4">
+                <h3 class="section-heading">THE HANWELL</h3>
+                <p class="text-muted">The Hanwell embodies Marshall's legacy of loud. Hailing from a line of 50th 
+                    anniversary products, the Hanwell moves Marshall's heritage of big stage 
+                    performance out of the arena and into your personal space. Delivering a sound 
+                    that resonates with the presence and power of live music, the Hanwell is a 
+                    carefully crafted machine, designed to attain that trademark Marshall tone. 
+                    Its dual long-throw woofers produce super lows, and hi-fi tweeters yield extended 
+                    highs that render the sound sharp and clear, like sitting front row.</p>               
+            </div>
+
+        </div>
+        <!-- /.row -->
+
+        <!-- Related Projects Row -->
+        <h3 class="my-4">FEATURES</h3>
+
+        <div class="row">
+            <div class="col-md-3 col-sm-6 mb-4 portfolio-item">                
+                <a data-toggle="modal" href="#portfolioModal1">
+                    <img class="img-fluid" src="img/hanwell_feature_one.jpg" alt="control panel">
+                </a>                              
+            </div>
+
+            <div class="col-md-3 col-sm-6 mb-4 portfolio-item">
+                <a data-toggle="modal" href="#portfolioModal2">
+                    <img class="img-fluid" src="img/hanwell_feature_two.jpg" alt="Smartphone connected">
+                </a>
+            </div>
+
+            <div class="col-md-3 col-sm-6 mb-4 portfolio-item">
+                <a data-toggle="modal" href="#portfolioModal3">
+                    <img class="img-fluid" src="img/hanwell_feature_three.jpg" alt="adjusting volume">
+                </a>
+            </div>
+
+            <div class="col-md-3 col-sm-6 mb-4 portfolio-item">
+                <a data-toggle="modal" href="#portfolioModal4">
+                    <img class="img-fluid" src="img/hanwell_feature_four.jpg" alt="portable">
+                </a>
+            </div>
+
+        </div>
+        <div class="techDetails">
+                <h3 class="my-3 service-heading">TECHNICAL DETAILS</h3>
+                <table>
+                    <tr>
+                        <td>WOOFERS<br>6 in. Long Throw Hi-fi 2x</td>
+                        <td>TWEETERS<br>Ferrofluid Cooled Hi-fi Dome 2x</td>
+                        <td>AMPLIFIER<br>Pwm 100w (Cool Running)</td>
+                        <td>OVER TEMPERATURE PROTECTION<br>Yes</td>
+                    </tr>
+                    <tr>                        
+                        <td>FREQUENCY RESPONSE<br>35hz-20khz +/- 5db</td>
+                        <td>BASS AND TREBLE TONE CONTROLS<br>Yes</td>
+                        <td>MAX OUTPUT<br>110db Spl@1m</td>
+                        <td>MAINS INPUT VOLTAGE<br>110-120vac 50/60hz US/Japan<br>220-230vac 50/60hz EU</td>
+                    </tr>
+                    <tr>
+                        <td>MAX POWER CONSUMPTION<br>200w</td>
+                        <td>DIMENSIONS <br>350 X 185 X 185mm</td>
+                        <td>WEIGHT <br>5.10kg</td>
+                        <td>WARRANTY<br>One Year Limited</td>
+                    </tr>
+                </table>
+                </div>
+        <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="#"><img style="height:auto; width:240px" src="img/logos/Marshall_Logo.png" alt=""></a> 
+                </div>
+                
+                 <div class="col-md-4">
+                          
+                    <div>
+                        <a href="index.html#sound" class="list-inline-item">Sound</a>|                  
+                        <a href="index.html#portfolio" class="list-inline-item">Products</a>|
+                        <a href="index.html#about" class="list-inline-item">About</a>|
+                        <a href="index.html#team" class="list-inline-item">Contact</a>
+                    </div>
+                        <li  style="list-style:none; margin-top: 25px">
+                             <span class="copyright">Copyright &copy; Marshall 2017</span>
+                        </li>
+                </div>
+                
+                
+                           
+                
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li class="list-inline-item">
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                        <ul class="list-inline quicklinks">
+                    
+                            <a href="#">Privacy Policy</a> |
+                      
+                     
+                            <a href="#">Terms of Use</a>
+                      
+                    </ul>
+                         
+                    </ul>
+                </div>
+             <!--   <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li class="list-inline-item">
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">Terms of Use</a>
+                        </li>
+                    </ul>
+                </div> -->
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Portfolio Modals -->
+
+    <!-- Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 offset-lg-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>CLASSIC MARSHALL</h2>
+                                <p class="item-intro text-muted">The Hanwell is housed in wooden cabinet, clad in black vinyl 
+                                    and features an analog power switch and controls for volume, bass and treble.</p>
+                                <img class="img-fluid d-block mx-auto" src="img/han_feature_one_large.jpg" alt="Control Panel large">
+                                
+                                <button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fa fa-times"></i> Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 offset-lg-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>THE SOUND DELIVERER</h2>
+                                <p class="item-intro text-muted">Dual long-throw woofers produce super lows and hi-fi 
+                                    tweeters yield sharp extended highs, rendering the sound sharp and clear, like sitting front row.</p>
+                                <img class="img-fluid d-block mx-auto" src="img/han_feature_two_large.jpg" alt="Connecting smartphone">
+                                
+                                <button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fa fa-times"></i> Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 offset-lg-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>CLASSIC MARSHALL</h2>
+                                <p class="item-intro text-muted">As a tribute to Marshall's 50-year legacy, each Hanwell is branded 
+                                    with a numbered anniversary edition commemorative badge.</p>
+                                <img class="img-fluid d-block mx-auto" src="img/han_feature_three_large.jpg" alt="adjusting volume large">
+                                
+                                <button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fa fa-times"></i> Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 offset-lg-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>CLASSIC MARSHALL</h2>
+                                <p class="item-intro text-muted">The fret cloth and gold logo on the front 
+                        is borrowed from vintage Marshall amplifiers, and the body is outlined with 
+                        gold piping for a celebratory effect.</p>
+                                <img class="img-fluid d-block mx-auto" src="img/han_feature_four_large.jpg" alt="portable">
+                                
+                                <button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fa fa-times"></i> Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/tether/tether.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

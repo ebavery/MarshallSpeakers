@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Marshall Stanmore Speakers</title>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+     <!-- Custom styles for this template -->
+    <link href="css/agency.min.css" rel="stylesheet">
+    <link href="mycss.css" rel="stylesheet" type="text/css"/>
+    
+    <!-- Custom styles for this template -->
+    <link href="css/portfolio-item.css" rel="stylesheet">
+
+    <!-- Temporary navbar container fix -->
+    <style>
+    .navbar-toggler {
+        z-index: 1;
+    }
+    
+    @media (max-width: 576px) {
+        nav > .container {
+            width: 100%;
+        }
+    }
+    body{
+        margin-top: 20px;
+    }
+    </style>
+    <script type="text/javascript">
+        function showMore(){
+            var setting = document.getElementById("btnMore").innerHTML;
+            if (setting == "MORE"){
+                document.getElementById("extra").style.display = 'block';
+                document.getElementById("btnMore").innerHTML = "LESS";
+            }
+            else if (setting == "LESS"){
+                document.getElementById("extra").style.display = 'none';
+                document.getElementById("btnMore").innerHTML = "MORE";
+            }
+        }
+        function change(color){
+            switch(color){
+                case 'green': document.getElementById("main").src = 'img/hanwell_green.jpg'; break;
+                case 'cream': document.getElementById("main").src = 'img/hanwell_02.jpg'; break;
+                case 'purple': document.getElementById("main").src = 'img/hanwell_purple.jpg'; break;
+                case 'black': document.getElementById("main").src = 'img/hanwell_01.jpg'; break; 
+                case 'blackS': document.getElementById("main").src = 'img/stanmore_black.jpg'; break;
+                case 'creamS': document.getElementById("main").src = 'img/stanmore_cream.jpg'; break;
+                    
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar fixed-top navbar-toggleable-md navbar-inverse bg-inverse" id="mainNav">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbarLogo" href="index.html"><img src='img/Marshall_Logo_sm.png'></a>
+            
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#sound">Sound</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#portfolio">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#team">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container" style='margin-top: 100px'>
+
+        <!-- Portfolio Item Heading -->
+        <h1 class="service-heading">THE STANMORE <small> USD 400</small></h1>
+
+        <!-- Portfolio Item Row -->
+        <div class="row">
+
+            <div class="col-md-8">
+                <img id="main" class="img-fluid" src="img/stanmore_both.jpg" alt="Stanmore speaker">                
+                <button class="btn-custom" onClick="change('blackS')"><img src="img/hanwell_black_btn.jpg" alt="Stanmore speaker in black"></button>
+                <button class="btn-custom" onClick="change('creamS')"><img src="img/hanwell_crm_btn.jpg" alt="Stanmore speaker in cream"></button>
+            </div>
+
+            <div class="col-md-4">
+                <h3 class="section-heading">THE STANMORE</h3>
+                <p class="text-muted">Small in size, but not subtle in sound, the Stanmore is a compact active 
+                    stereo speaker that yields clean and precise sound even at high levels. 
+                    Stanmore's classic design is a throwback to the golden days of rock 'n' roll, and its 
+                    analogue interaction knobs give you custom control of your music. With a vintage-looking 
+                    front fret, brass details, and iconic script logo, the Stanmore is right at home with the 
+                    rest of your Marshall collection. Hook it up wirelessly via Bluetooth, use the RCA input to 
+                    plug in your record player, or simply connect the coil cord that's included to your phone 
+                    using the 3.5mm auxiliary input. The Stanmore is also compatible with devices with optical 
+                    output, like Apple TV.</p> 
+                
+                <h3 class="section-heading">ALL ABOUT THE SOUND</h3><button id="btnMore" class="btn btn-primary" onClick="showMore()">MORE</button>
+                
+                <div id="extra">                
+                    <p>Stanmore may be a compact stereo speaker, but its sound is nothing short of large. Built with 
+                        advanced components that deliver an accurate response throughout the frequency range, the Stanmore 
+                        packs a punch without compromising the details.</p>
+                    <p>
+                        The sound is rich and articulate across the entire spectrum, from the deep and powerful bass, throughout 
+                        the midrange and on to the highest highs. The overall effect is brilliantly reproduced music, full of 
+                        energy and drive. Adjustable bass and treble dials provide you with custom control, so your music always 
+                        sounds just how you like it.
+                    </p>
+                </div>
+            </div>  
+        </div>
+        <!-- /.row -->
+
+        <!-- Related Projects Row -->
+        <h3 class="my-4">FEATURES</h3>
+
+        <div class="row">
+            <div class="col-md-3 col-sm-6 mb-4 portfolio-item">
+                <div class="portfolio-link" >
+                    <a data-toggle="modal" href="#portfolioModal1">
+                        <img class="img-fluid" src="img/stanmore_feature_one.jpg" alt="connections in back">
+                    </a>
+                </div>               
+            </div>
+
+            <div class="col-md-3 col-sm-6 mb-4 portfolio-item">
+                <a data-toggle="modal" href="#portfolioModal2">
+                    <img class="img-fluid" src="img/stanmore_feature_two.jpg" alt="Connections">
+                </a>
+            </div>
+
+            <div class="col-md-3 col-sm-6 mb-4 portfolio-item">
+                <a data-toggle="modal" href="#portfolioModal3">
+                     <img class="img-fluid" src="img/stanmore_feature_three.jpg" alt="standby modes">
+                </a>
+            </div>
+
+            <div class="col-md-3 col-sm-6 mb-4 portfolio-item">
+                <a data-toggle="modal" href="#portfolioModal4">
+                    <img class="img-fluid" src="img/stanmore_feature_four.jpg" alt="style">
+                </a>
+            </div>  
+        </div>
+        <div class="techDetails">
+                <h3 class="my-3 service-heading">TECHNICAL DETAILS</h3>
+                <table>
+                    <tr>
+                        <td>CONNECTIVITY<br>Bluetooth, Standard V4.0 + Edr APTX Codec</td>
+                        <td>INPUT 1<br>3.5mm 1x</td>
+                        <td>INPUT 2<br>RCA 1x</td>
+                        <td>OPTICAL INPUT<br>1x</td>
+                    </tr>
+                    <tr>
+                        <td>WOOFER<br>5¼ in. 1x</td>
+                        <td>TWEETERS<br>¾ in. Dome 2x</td>
+                        <td>NOMINAL RATING<br>100-240v~</td>
+                        <td>ABSOLUTE MIN/MAX<br>90-264v~</td>
+                    </tr>
+                    <tr>
+                        <td>MAINS FREQUENCY<br>50-60hz</td>
+                        <td>AMPLIFIER<br>Digital Class D</td>
+                        <td>DRIVER<br>Custom Made 40mm Dynamic</td>
+                        <td>SENSITIVITY<br>100mv@1khz=99db Spl</td>
+                    </tr>
+                    <tr>                        
+                        <td>FREQUENCY RESPONSE<br>45- 22.000hz +-3db</td>
+                        <td>BASS AND TREBLE TONE CONTROLS<br>Yes</td>
+                        <td>MAX POWER OUTPUT<br>80w Rms</td>
+                        <td>MAINS INPUT VOLTAGE<br>100-240v~ /200w</td>
+                    </tr>
+                    <tr>
+                        <td>MAX PEAK POWER CONSUMPTION<br>200w</td>
+                        <td>DIMENSIONS <br>435 X 193 X 297mm / 17.15 X 7.60 X 11.70"</td>
+                        <td>WEIGHT <br>10.5kg / 23lb</td>
+                        <td>WARRANTY<br>One Year Limited</td>
+                    </tr>
+                    <tr>
+                        <td>CROSSOVER FREQUENCY<br>2500hz</td>
+                        <td>TWO STANDBY MODES<br>Powersaver Mode (0,43w) and Standard Mode (8,7w)</td>
+                    </tr>
+                </table>
+                </div>
+        <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="#"><img style="height:auto; width:240px" src="img/logos/Marshall_Logo.png" alt=""></a> 
+                </div>
+                
+                 <div class="col-md-4">
+                          
+                    <div>
+                        <a href="index.html#sound" class="list-inline-item">Sound</a>|                  
+                        <a href="index.html#portfolio" class="list-inline-item">Products</a>|
+                        <a href="index.html#about" class="list-inline-item">About</a>|
+                        <a href="index.html#team" class="list-inline-item">Contact</a>
+                    </div>
+                        <li  style="list-style:none; margin-top: 25px">
+                             <span class="copyright">Copyright &copy; Marshall 2017</span>
+                        </li>
+                </div>
+                
+                
+                           
+                
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li class="list-inline-item">
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                        <ul class="list-inline quicklinks">
+                    
+                            <a href="#">Privacy Policy</a> |
+                      
+                     
+                            <a href="#">Terms of Use</a>
+                      
+                    </ul>
+                         
+                    </ul>
+                </div>
+             <!--   <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li class="list-inline-item">
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">Terms of Use</a>
+                        </li>
+                    </ul>
+                </div> -->
+            </div>
+        </div>
+    </footer>
+    
+<!-- Portfolio Modals -->
+
+    <!-- Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 offset-lg-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>CLASSIC MARSHALL, MODERN LISTENING</h2>
+                                <p class="item-intro text-muted">The Stanmore is a loudspeaker created for today's world. With multiple 
+                connection sources, there are loads of ways to connect to your speaker, 
+                whether via your phone, vinyl player, tv or wirelessly via the latest 
+                version of Bluetooth®, featuring APTX technology.</p>
+                                <img class="img-fluid d-block mx-auto" src="img/stanmore_feature_one_large.jpg" alt="Connections on the back">
+                                
+                                <button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fa fa-times"></i> Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 offset-lg-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>CLASSIC MARSHALL, MODERN LISTENING</h2>
+                                <p class="item-intro text-muted">With multiple music source options, you can connect to the 
+                                    Stanmore wirelessly via Bluetooth with APTX technology or through one of three audio inputs: 
+                                    3.5mm input, rca input, or the optical audio input.</p>
+                                <img class="img-fluid d-block mx-auto" src="img/stanmore_feature_two_large.jpg" alt="Connections">
+                                
+                                <button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fa fa-times"></i> Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 offset-lg-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>CLASSIC MARSHALL, MODERN LISTENING</h2>
+                                <p class="item-intro text-muted">The Stanmore comes with two standby modes, powersaver and standard, 
+                                to minimize your speaker's environmental impact when not actively in use.</p>
+                                <img class="img-fluid d-block mx-auto" src="img/stanmore_feature_three_large.jpg" alt="Standby modes">
+                                
+                                <button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fa fa-times"></i> Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 offset-lg-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>CLASSIC MARSHALL, MODERN LISTENING</h2>
+                                <p class="item-intro text-muted">With a vintage-looking front fret, brass 
+                                    details, and iconic script logo, the Stanmore is right at home with the 
+                                    rest of your Marshall collection. </p>
+                                <img class="img-fluid d-block mx-auto" src="img/stanmore_feature_four_large.jpg" alt="Style">
+                                
+                                <button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fa fa-times"></i> Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/tether/tether.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

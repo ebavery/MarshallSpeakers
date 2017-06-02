@@ -1,0 +1,59 @@
+/*!
+ * Start Bootstrap - Portfolio Item (http://startbootstrap.com/template-overviews/portfolio-item)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-portfolio-item/blob/master/LICENSE)
+ */
+
+body {
+    padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+
+h1, h3{
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+
+#extra{
+    display: none;
+}
+
+.techDetails{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: .75em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.techDetails h3{
+    font-size: 1.5em;
+    margin-left: 10px;
+    border-bottom: white solid 1px;
+}
+
+.techDetails td{
+    padding: 10px;
+    vertical-align: top;
+}
+
+.btn-custom {
+    border: none;
+    background-color: white;
+    box-shadow: none;  
+    
+}
+#main{
+    margin-bottom: 5px;
+}
+
+@media (max-width: 425px){
+.techDetails table tr td{
+    display: inline-block;
+}}
